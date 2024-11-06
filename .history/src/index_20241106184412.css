@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-items img {
+  width: 50px;
+}
+
+.navbar-items ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}

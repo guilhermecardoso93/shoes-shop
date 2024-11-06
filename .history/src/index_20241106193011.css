@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.navbar-container {
+  box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+}
+
+.navbar-items, .navbar-items-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-items img {
+  width: 50px;
+  margin-left: 24px;
+}
+
+.navbar-items ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-items ul li {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-items ul li:hover, .find-icon:hover {
+  color: #00754a;
+  cursor: pointer;
+}
+
+.find-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-items-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.navbar-items-right .buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-items-right button {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 5px 20px 5px 20px;
+}
+
+.btn-join {
+  background-color: black;
+  color: white;
+}
+
+.btn-join:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-sign {
+  color: black;
+  background-color: white;
+}
+
+.btn-sign:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.product {
+  background-color: #1e3932;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-left, .product-right {
+  max-width: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.product-button {
+  margin-top: 40px;
+  border: 1px solid white;
+  max-width: max-content;
+  padding: 5px 20px;
+  border-radius: 40px;
+}
+
+.product-button-white {
+  color: white;
+}
+
+.product-button-black {
+  color: black;
+  border-color: black;
+}

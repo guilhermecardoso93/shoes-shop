@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.navbar-items, .navbar-items-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-items img {
+  width: 50px;
+  margin-left: 24px;
+}
+
+.navbar-items ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-items ul li {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-items ul li:hover {
+  color: #00754a;
+  cur
+}
+
+.navbar-items-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.navbar-items-right .buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-items-right button {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 5px 20px 5px 20px;
+}
+
+.btn-join {
+  background-color: black;
+  color: white;
+}
+
+.btn-join:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-sign {
+  color: black;
+  background-color: white;
+}
+
+.btn-sign:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
